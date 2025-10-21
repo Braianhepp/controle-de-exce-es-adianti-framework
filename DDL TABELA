@@ -1,0 +1,8 @@
+CREATE TABLE auditoria.excecoes_portal (
+	id int DEFAULT NEXT VALUE FOR [auditoria].[excecoes_portal_pk_sequence] NOT NULL,
+	classe varchar(120) COLLATE Latin1_General_CI_AS NULL,
+	metodo varchar(120) COLLATE Latin1_General_CI_AS NULL,
+	detalhes text COLLATE Latin1_General_CI_AS NULL,
+	data_hora datetime DEFAULT getdate() NULL,
+	CONSTRAINT excecoes_portal_pk PRIMARY KEY (id)
+);
