@@ -27,7 +27,7 @@ public function exemplo()
         new TMessage('error', 'Oops, ocorreu um erro ao gerar os dados. ' . Excecao::identificar($e));
     }
 }
-
+```
 <img width="903" height="454" alt="image" src="https://github.com/user-attachments/assets/e536b66b-741e-45e0-bb7d-1693b49c2081" />
 
 
