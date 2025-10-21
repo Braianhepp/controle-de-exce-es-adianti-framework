@@ -1,4 +1,4 @@
-Classe utilitária para registrar e identificar exceções de forma segura e controlada em PHP.
+Classe utilitária para registrar e identificar exceções como por exemplo dados sensíveis do seu banco de dados no ADIANTI FRAMEWORK.
 Ideal para aplicações que precisam logar erros no banco de dados sem exibir mensagens sensíveis ao usuário final.
 
 🧠 Visão Geral
@@ -10,7 +10,7 @@ Excecao::identificar($erro);
 
 Cria um registro no banco com todos os detalhes da exceção.
 
-Retorna um código único de erro (ex: CÓDIGO DO ERRO: 123) que pode ser exibido ao usuário ou salvo em log.
+Retorna um código único de erro (ex: CÓDIGO DO ERRO: 123) que pode ser exibido ao usuário e salvo em log.
 
 Garante que nenhum erro visível seja mostrado em tela, mesmo que o processo de registro falhe.
 
